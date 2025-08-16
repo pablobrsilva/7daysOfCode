@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('./reset.css');
+@import url('./cabecalho.css');
+@import url('./sobre-nos.css');
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-link-menu: #667085;
+    --cor-link-menu-hover: #52555d;
+    --cor-de-titulo-destaque: #8E2424;
+    --cor-de-titulo-destaque-hover: #801616;
+    --cor-de-destaque-preto: #000000;
+    --fonte-principal: "Inter", sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-link-menu);    
+    font-size: 16px;
+    font-weight: 400;
+}
