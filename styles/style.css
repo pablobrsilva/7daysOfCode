@@ -2,6 +2,8 @@
 @import url('./reset.css');
 @import url('./cabecalho.css');
 @import url('./sobre-nos.css');
+@import url('./metricas.css');
+@import url('./vagas.css');
 
 :root {
     --cor-de-fundo: #FFFFFF;
@@ -9,6 +11,7 @@
     --cor-link-menu-hover: #52555d;
     --cor-de-titulo-destaque: #8E2424;
     --cor-de-titulo-destaque-hover: #801616;
+    --cor-de-fundo-destaque: rgba(142, 36, 36, 0.05);
     --cor-de-destaque-preto: #000000;
     --fonte-principal: "Inter", sans-serif;
 }
@@ -23,4 +26,5 @@ body {
     color: var(--cor-link-menu);    
     font-size: 16px;
     font-weight: 400;
+    margin: 0 5em;
 }

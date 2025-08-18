@@ -1,9 +1,9 @@
 .sobre-nos {
     text-align: center;
-    padding: 6% 30%;
+    padding: 6% 27%;
 }
 
-span {
+.sobre-nos__subtitulo {
     color: var(--cor-de-titulo-destaque);
     font-weight: 600;
 }
