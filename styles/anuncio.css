@@ -1,0 +1,29 @@
+.anuncio {
+    margin: 10em 0 5em 0;
+    text-align: center;
+}
+
+.anuncio__chamada {
+    font-size: 14px;
+    font-weight: 500;
+    padding: .3em .8em;
+    border-radius: 15px;
+    color: var(--cor-de-titulo-destaque);    
+    background: var(--cor-de-fundo-destaque);
+}
+
+.anuncio__destaque {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-de-destaque-preto);
+    margin: .7em 0;
+}
+
+.anuncio__texto {
+    font-size: 20px;
+    margin-bottom: 2.5em;
+}
+
+.anuncio_img{
+    width: 89%;
+}

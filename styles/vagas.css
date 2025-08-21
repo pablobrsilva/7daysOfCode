@@ -1,29 +1,38 @@
 .vagas {
-    margin: 10em 0 3em 0;
-    text-align: center;
+    width: 55%;
+    margin: 0 auto;
 }
 
-.vagas__chamada {
-    font-size: 14px;
+.vagas__setor {
+    margin: 4em 0;
+}
+
+.setor__profissão,
+.titulo-vaga {    
     font-weight: 500;
-    padding: .3em .8em;
-    border-radius: 15px;
-    color: var(--cor-de-titulo-destaque);    
-    background: var(--cor-de-fundo-destaque);
+    color: var(--cor-de-destaque-preto);    
 }
 
-.vagas__destaque {
-    font-size: 36px;
-    font-weight: 600;
-    color: var(--cor-de-destaque-preto);
-    margin: .7em 0;
-}
-
-.vagas__texto {
+.setor__profissão {
     font-size: 20px;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
-.vagas_img{
-    width: 89%;
+.titulo-vaga{
+    font-size: 18px;
+}
+
+.vaga {    
+    padding: 2em;
+    margin: 1.7em 0;
+    border: 1px solid var(--cor-da-borda-card);
+    border-radius: 15px;
+}
+
+.informações {
+    margin-top: 3em;
+}
+
+.informações span:nth-child(2) {
+    margin-left: 2em;
 }

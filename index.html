@@ -19,10 +19,10 @@
                     <a class="menu__lista-link" href="#">Home</a>
                 </li>
                 <li class="menu__lista-item">
-                    <a class="menu__lista-link" href="#">Produtos</a>
+                    <a class="menu__lista-link" href="#vagas">Produtos</a>
                 </li>
                 <li class="menu__lista-item">
-                    <a class="menu__lista-link" href="#">Recursos</a>
+                    <a class="menu__lista-link" href="#depoimentos">Recursos</a>
                 </li>
                 <li class="menu__lista-item">
                     <a class="menu__lista-link" href="#sobre-nos">Sobre nós</a>
@@ -36,7 +36,7 @@
     </header>
     <main>
         <section class="sobre-nos">
-            <span class="sobre-nos__subtitulo" id="Sobre-nos">Sobre nós</span>
+            <span class="sobre-nos__subtitulo" id="sobre-nos">Sobre nós</span>
             <h2 class="sobre-nos__destaque">Por que somos diferentes?</h2>
             <p class="sobre-nos__texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
         </section>
@@ -62,11 +62,74 @@
                 <p class="metricas__texto">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
             </div>            
         </section>
-        <section class="vagas">
-            <span class="vagas__chamada">Vagas abertas!</span>
-            <h2 class="vagas__destaque">Estamos procurando por talentos</h2>
-            <p class="vagas__texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-            <img class="vagas_img" src="./img/Image.png" alt="Imagem da equipe do Optimus Tech">
+        <section class="anuncio">
+            <span class="anuncio__chamada">Vagas abertas!</span>
+            <h2 class="anuncio__destaque">Estamos procurando por talentos</h2>
+            <p class="anuncio__texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+            <img class="anuncio_img" src="./img/Image.png" alt="Imagem da equipe do Optimus Tech">
+        </section>
+        <section class="vagas" id="vagas">
+            <div class="vagas__setor">
+                <h2 class="setor__profissão">Design</h2>
+                <div class="vaga">
+                    <span class="titulo-vaga">Product Designer</span>
+                    <div class="informações">
+                        <span>Full Time</span>
+                        <span>Faixa salarial: R$7.000</span>
+                    </div>
+                </div>
+                <div class="vaga">
+                    <span class="titulo-vaga">UX Designer</span>
+                    <div class="informações">
+                        <span>Full Time</span>
+                        <span>Faixa salarial: R$6.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="vagas__setor">
+                <h2 class="setor__profissão">Desenvolvimento de Software</h2>
+                <div class="vaga">
+                    <span class="titulo-vaga">Desenvolvedor(a) iOS</span>
+                    <div class="informações">
+                        <span>Full Time</span>
+                        <span>Faixa salarial: R$8.000</span>
+                    </div>
+                </div>
+                <div class="vaga">
+                    <span class="titulo-vaga">Desenvolvedor(a) Front-end</span>
+                    <div class="informações">
+                        <span>Full Time</span>
+                        <span>Faixa salarial: R$7.000</span>
+                    </div>
+                </div>
+                <div class="vaga">
+                    <span class="titulo-vaga">Desenvolvedor(a) Back-end</span>
+                    <div class="informações">
+                        <span>Full Time</span>
+                        <span>Faixa salarial: R$8.000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="depoimentos" id="depoimentos">
+            <div>
+                <p class="depoimentos__destaque">Veja o que nossos colaboradores falam sobre nós</p>
+                <h2 class="depoimentos__texto">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+            </div>
+            <div>
+                <img class="depoimentos__img" src="./img/Avatar.png" alt="Foto de Júlia Castro">
+                <p class="depoimentos__nome">Júlia Castro</p>
+                <p class="depoimentos__cargo">Desenvolvedora Web</p>
+            </div>
+        </section>
+        <section class="rodapé">
+            <h2 class="rodapé__titulo">Acompanhe as nossas oportunidades</h2>
+            <p class="rodapé__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+            <form class="rodapé__formulario">
+                <input class="rodapé__input" type="email"  placeholder="Seu e-mail" required>
+                <button type="submit" class="rodapé__botao">Cadastrar</button>
+            </form>
+            <p class="rodapé__copyright">© 2025 OptimusTech. Todos os direitos reservados.</p>
         </section>
     </main>    
 </body>

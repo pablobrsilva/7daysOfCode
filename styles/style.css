@@ -3,12 +3,17 @@
 @import url('./cabecalho.css');
 @import url('./sobre-nos.css');
 @import url('./metricas.css');
+@import url('./anuncio.css');
 @import url('./vagas.css');
+@import url('./depoimentos.css');
+@import url('./rodape.css');
 
 :root {
     --cor-de-fundo: #FFFFFF;
+    --cor-de-fundo-rodape: rgba(249, 250, 251, 1);
     --cor-link-menu: #667085;
     --cor-link-menu-hover: #52555d;
+    --cor-da-borda-card: rgba(234, 236, 240, 1);
     --cor-de-titulo-destaque: #8E2424;
     --cor-de-titulo-destaque-hover: #801616;
     --cor-de-fundo-destaque: rgba(142, 36, 36, 0.05);
@@ -26,5 +31,5 @@ body {
     color: var(--cor-link-menu);    
     font-size: 16px;
     font-weight: 400;
-    margin: 0 5em;
+    
 }
